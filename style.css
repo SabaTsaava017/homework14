@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 1500px;
+}
+.project-above-content {
+    width: 1500px;
+    height: 308px;
+    background-color: #0A22F4;
+}
+.project-title h4{
+    color: white;
+    padding-top: 70px;
+    padding-left:240px;
+    font-size:32px;
+    font-size: white;
+}
+.project-title-dots {
+    padding-top: 40px;
+    display: flex;
+    padding-bottom: 20px;
+    color: white;
+    padding-left: 600px;
+    font-size:15px;
+    width: 70px;
+    height: 10px;
+}
+.white-dot {
+    color: white;
+    font-size: 40px;
+}
+.gray-dot {
+    color: gray;
+    font-size: 40px;
+}
+.project-title-dots h6 {
+    padding: 20px;
+}
+.project-title-dots-wrapper {
+    display: flex;
+}
+.project-section-images {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.project-section-images div {
+    display: inline-block;
+}
+.tsereteli-project-picture {
+    margin-top: 60px;
+}
+.tsereteli-project-picture img{
+    position: absolute;
+    width: 363px;
+    height: 320px;
+}
+.tsereteli-project-picture p {
+    position: relative;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 10px;
+    padding-top: 20px;
+    width:340px;
+    height: 90px;
+    background-color: white;
+    border-radius: 12px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+}
+.tsereteli2-project-picture {
+    vertical-align: top;
+}
+.tsereteli2-project-picture img {
+    position: absolute;
+    width: 420px;
+    height: 400px;
+}
+.tsereteli2-project-picture p {
+    position: relative;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 40px;
+    padding-top: 20px;
+    width:340px;
+    height: 90px;
+    border-radius: 12px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+}
+
+.tsereteli3-project-picture {
+    margin-left: 10px;
+}
+
+.tsereteli3-project-picture img{
+    position: absolute;
+    width: 363px;
+    height: 320px;
+
+    color: gray
+}
+.tsereteli3-project-picture p {
+    position: relative;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 10px;
+    padding-top: 20px;
+    width:340px;
+    height: 90px;
+    background-color: white;
+    border-radius: 12px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+}
+.tsereteli4-project-picture {
+    margin-left: 18px;
+}
+
+.tsereteli4-project-picture img{
+    position: absolute;
+    width: 363px;
+    height: 320px;
+}
+.tsereteli4-project-picture p {
+    position: relative;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 10px;
+    padding-top: 20px;
+    width:340px;
+    height: 90px;
+    background-color: white;
+    border-radius: 12px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+}
+.other-proects-text {
+    margin-top: 200px;
+    margin-left: 1200px;
+}
+.partniors-titles {
+    margin-top: 600px;
+}
+.partniors-titles h4 {
+    color: #171717;
+    font-size: 32px;
+}
+.partniors-titles .project-title-dots-wrapper .blue-dot {
+    color: blue;
+    font-size: 40px;
+}
+.partniors-titles .project-title-dots-wrapper .project-title-dots {
+    margin-left: 250px;
+}
+.partniors-text {
+    margin-top: 60px;
+    margin-left: 240px;
+    width: 463px;
+    height: 99px;
+}
+.partniors-text a{
+    text-decoration: none;
+    color: blue;
+}
+.partniors-text-and-company-content {
+    display: flex;
+    width: 1500px;
+    height: 400px;
+}
+.partniors-company-imgs {
+    margin-left: 200px;
+    width: 500px;
+}
+.partniors-company-imgs img {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 13px;
+    width: 150px;
+}
