@@ -1,3 +1,4 @@
+
 h1{
 	padding-left: 240px;
 	width: 197px;
@@ -7,19 +8,25 @@ h1{
 .paragrap_style{
 	width: 400px;
 	padding-left: 240px;
+	display: inline-block;
+	vertical-align:bottom;
+	display: inline-block;
+
 }
 .paragrap_style1{
 	width: 400px;
 	padding-left: 240px;
+	vertical-align: bottom;
 }
 span{
 	color: #0A22F4;
 }
 .picture{
 	margin-left: 900px;
-	margin-bottom: 400px;
 	width: 400px;
-
+	vertical-align: bottom;
+	display: inline-block;
+	margin-top: -400px;
 }
 h2{
 	font-size: 32px;
@@ -28,8 +35,12 @@ h2{
 .paragrap_style2{
 	width: 400px;
 	padding-left: 800px;
+	display:block;
 }
 .picture2{
 	width: 400px;
 	margin-left: 240px;
+
+
 }
+
