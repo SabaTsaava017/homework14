@@ -182,3 +182,168 @@
     margin-left: 13px;
     width: 150px;
 }
+.footer {
+  width: 100%;
+  background-color: #0a22f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.map iframe {
+  border-radius: 15px;
+}
+.footer_container {
+  width: calc(100% - 480px);
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 463px;
+}
+
+.contact > div {
+  margin-top: 30px;
+}
+
+.contact_header {
+  font-size: 32px;
+}
+
+.contact_text {
+  font-size: 16px;
+}
+
+.contact_wrapper {
+  width: 550px;
+}
+
+.num_mail {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.num_mail p {
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+}
+.mail {
+  display: flex;
+  align-items: center;
+}
+
+.mail_image {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.call_image {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mail_image img {
+  width: 50%;
+}
+.call_image img {
+  width: 50%;
+}
+
+.mail_form {
+  width: 463px;
+  margin-top: 100px;
+}
+
+.mail_form form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mail_form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="mail"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #0a22f4;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  opacity: 0.7;
+}
+.mail_form textarea {
+  width: 100%;
+  border: none;
+  background-color: #0a22f4;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+input[type="submit"] {
+  min-width: 150px;
+  padding: 10px;
+  border-radius: 28px;
+  border: none;
+  margin-left: auto;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #cacffffc;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+  margin: 70px 0 40px 0;
+}
+
+.smart_web {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.make_smart_choice p {
+  display: flex;
+}
+.make_smart_choice span {
+  margin: 0 3px 0 3px;
+}
+.make_smart_choice {
+  display: flex;
+  align-items: center;
+}
+.smart_logo img {
+  width: 120px;
+  margin-left: 25px;
+}
